@@ -2,8 +2,9 @@
 import CountryList from "../components/CountryList/CountryList";
 import EmptySearch from "../components/Emptysearch/EmptySearch";
 import RegionMenu from "../components/RegionMenu/RegionMenu";
-import SearchInput from "../components/SearchInput/SearchInput"; // Corrected casing
- // Corrected casing
+import SearchInput from "../components/Searchinput/Searchinput"; 
+
+
 import { useFetchData } from "../useFetchData";
 
 export default function Home() {
